@@ -1,31 +1,3 @@
-// Le 16 juillet 1969 à Cape Kennedy en Floride a 
-// eu lieu le décollage d'Apollo 11. Pour la première 
-// fois, des Hommes allaient se poser sur la Lune ...
-
-// Affichez dans la console les commentaires de [Jack King]
-// (https://en.wikipedia.org/wiki/Jack_King_(NASA)) à 
-// l'aide d'une boucle. La boucle devra décrémenter un 
-// compteur de 12 à 0.
-
-// Nom du fichier à créer : **apollo11.js**
-
-// Résultat attendu dans le terminal :
-
-// 12
-// 11
-// 10
-// 9
-// Ignition sequence start
-// 6
-// 5
-// 4
-// 3
-// 2
-// 1
-// 0
-// All engines running
-// Liftoff! 🚀
-
 ///////////////////////////////////////////////
 const limit = 0;
 
@@ -39,3 +11,19 @@ for (let i = 12; i >= limit; i--) {
 
 console.log("All engines running\nLiftoff! 🚀");
 ///////////////////////////////////////////////
+
+// Tout d'abord, la ligne const limit = 0; déclare une constante nommée 
+// "limit" avec une valeur de 0.
+
+// Ensuite, le code utilise une boucle for pour itérer à partir de 12 
+// jusqu'à la valeur de "limit" en décrémentant de 1 à chaque itération. 
+// La boucle s'arrête lorsque la valeur de "i" atteint la valeur de "limit".
+
+// À l'intérieur de la boucle, il y a plusieurs conditions if et else if 
+// qui vérifient la valeur de "i". Si "i" est égal à 8, la console affiche 
+// le message "Ignition sequence start". Si "i" n'est pas égal à 7, la console 
+// affiche la valeur de "i". Si "i" est égal à 7, rien ne se passe.
+
+// En fin de compte, le code affichera les valeurs décroissantes de 12 à 1, 
+// sauf la valeur 7, et affichera également le message "Ignition sequence 
+// start" lorsque "i" atteint 8.
