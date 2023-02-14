@@ -2,7 +2,7 @@
 // for loop
 // const limit = 20;
 
-// for (let i=1; i<=limit; i++) {
+// for (let i = 1; i <= limit; i++) {
 //     if (i % 2 === 0) {
 //         console.log(i);
 //     }
@@ -16,7 +16,7 @@ const limit2 = 20;
 let i = 1;
 while (i <= limit2) {
     if (i % 2 === 0) {
-    console.log(i);
+        console.log(i);
     }
     i++;
 }

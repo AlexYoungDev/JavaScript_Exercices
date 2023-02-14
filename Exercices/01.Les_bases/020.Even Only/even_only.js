@@ -25,24 +25,24 @@
 
 ///////////////////////////////////////////////
 // "for" loop
-// const limit = 20; 
+const limit = 20;
 
-// for (let i=1; i<= limit; i++) {
-//     if (i % 2 === 0) {
-//         console.log(i);
-//     }
-// }
+for (let i = 1; i <= limit; i++) {
+    if (i % 2 === 0) {
+        console.log(i);
+    }
+}
 ///////////////////////////////////////////////
 
 ///////////////////////////////////////////////
 // "while" loop
-const limit2 = 20;
+// const limit2 = 20;
 
-let i = 1;
-while (i <= limit2) {
-    if (i % 2 === 0) {
-        console.log(i);
-    }
-    i++;
-}
+// let i = 1;
+// while (i <= limit2) {
+//     if (i % 2 === 0) {
+//         console.log(i);
+//     }
+//     i++;
+// }
 ///////////////////////////////////////////////
