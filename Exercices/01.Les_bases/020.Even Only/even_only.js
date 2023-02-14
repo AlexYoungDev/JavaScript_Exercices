@@ -36,11 +36,11 @@
 
 ///////////////////////////////////////////////
 // "while" loop
-const limit = 0;
+const limit2 = 20;
 
 let i = 1;
-while (i <= limit) {
-    if (i % 2 === 0){
+while (i <= limit2) {
+    if (i % 2 === 0) {
         console.log(i);
     }
     i++;
