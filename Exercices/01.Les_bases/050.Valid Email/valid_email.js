@@ -25,3 +25,14 @@ for (let i = 0; i < email.length; i++) {
 }
 console.log(valid);
 ///////////////////////////////////////////////
+
+// En utilisant indexOf() :
+///////////////////////////////////////////////
+const email2 = "dorothy@mail.com";
+let valid2 = false
+
+if (email2.indexOf("@") !== -1) {
+    valid2 = true 
+}
+console.log(valid2);
+///////////////////////////////////////////////
