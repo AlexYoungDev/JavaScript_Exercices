@@ -25,7 +25,6 @@
 // Liftoff! 🚀
 
 ///////////////////////////////////////////////
-
 const limit = 0;
 
 for (let i = 12; i >= limit; i--) {
@@ -37,5 +36,4 @@ for (let i = 12; i >= limit; i--) {
 }
 
 console.log("All engines running \nLiftoff! 🚀");
-
 ///////////////////////////////////////////////
