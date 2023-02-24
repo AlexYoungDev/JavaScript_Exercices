@@ -31,7 +31,11 @@ console.log(reserveString("I Love Code"));
 // Fonction
 ///////////////////////////////////////////////
 function reserveString2(str) {
-
+    let result2 = "";
+    for (let i = str.length -1; i >= 0; i--) {
+        result2 = result2 + str.charAt(i);
+    }
+    return result2;
 }
-console.log(reserveString2());
+console.log(reserveString2("I Love Code"));
 ///////////////////////////////////////////////

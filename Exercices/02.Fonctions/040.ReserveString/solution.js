@@ -1,12 +1,26 @@
 // Fonction fléchée
 ///////////////////////////////////////////////
-
+const reserveString = str => {
+    let result = "";
+    for (let i = str.length -1; i >= 0; i--) {
+        result = result + str.charAt(i);
+    }
+    return result;
+}
+console.log(reserveString("I Love Code"));
 ///////////////////////////////////////////////
 
 
 // Fonction
 ///////////////////////////////////////////////
-
+function reserveString2 (str) {
+    let result2 = "";
+    for (let i = str.length -1; i >= 0; i--) {
+        result2 = result2 + str.charAt(i);
+    }
+    return result2;
+}
+console.log(reserveString2("I Love Code"));
 ///////////////////////////////////////////////
 
 // let result = "";: Ceci initialise une variable result en 
