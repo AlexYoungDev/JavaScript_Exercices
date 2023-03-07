@@ -1,6 +1,6 @@
 // Dans cette fonction, définissez une variable nommée 
-// total et assignez-lui la valeur 0.Créez une seconde variable 
-// nommée limit et assignez-lui la valeur 10.Créez une boucle
+// total et assignez-lui la valeur 0. Créez une seconde variable 
+// nommée limit et assignez-lui la valeur 10. Créez une boucle
 // for avec une variable i commençant à 0 et s'incrémentant 
 // à chaque itération de la boucle. La boucle doit s'exécuter 
 // aussi longtemps que i est strictement inférieur à limit.
@@ -24,16 +24,16 @@
 
 // Fonction fléchée 
 ///////////////////////////////////////////////
-const loop = () => {
-    let total = 0;
-    const limit = 10;
-    for (let i = 0; i < limit; i++) {
-        total = total + i;
+    const loop = () => {
+        let total = 0;
+        const limit = 10;
+        for (let i = 0; i < limit; i++) {
+            total = total + i;
+        }
+        console.log(total);
     }
-    console.log(total);
-}
-//Appel
-loop();
+loop()
+
 ///////////////////////////////////////////////
 
 
@@ -47,5 +47,6 @@ function loop2 () {
     }
     console.log(total2);
 }
+//Appel
 loop2();
 ///////////////////////////////////////////////

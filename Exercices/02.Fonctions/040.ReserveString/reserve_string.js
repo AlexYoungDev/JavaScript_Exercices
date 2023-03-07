@@ -24,7 +24,7 @@ const reserveString = str => {
     }
     return result;
 }
-console.log(reserveString("I Love Code"));
+console.log(reserveString("I Love Football"));
 ///////////////////////////////////////////////
 
 
