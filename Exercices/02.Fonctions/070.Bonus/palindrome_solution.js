@@ -34,7 +34,7 @@ console.log(palindrome("Girafarig"));
 // Fonction
 ///////////////////////////////////////////////
 function palindrome2 (str) {
-    newStr2 = "";
+    let newStr2 = "";
     for (let i = 0; i < str.length; i++) {
         if (str.charAt(i) !== " ") {
             newStr2 = newStr2 + str.charAt(i);
@@ -44,16 +44,16 @@ function palindrome2 (str) {
     newStr2 = newStr2.toLowerCase();
 
     let reversed2 = "";
-    for (let i = newStr2.length -1; i >= 0; i--) {
-        reversed2 = reversed2 + newStr2.charAt(i);
+    for (let i = str.length -1; i >= 0; i--) {
+        reversed2 = reversed2 + str.charAt(i);
     }
-    
+
     if (reversed2 === newStr2) {
         return true;
     } else {
         return false;
     }
-};
+}
 console.log(palindrome2("Pokemon"));
 ///////////////////////////////////////////////
 
