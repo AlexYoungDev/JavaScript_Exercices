@@ -16,23 +16,24 @@
 
 ///////////////////////////////////////////////
 const email = "dorothy@mail.com";
-let valid = false
+let valid = false;
 
 for (let i = 0; i < email.length; i++) {
     if (email[i] === "@") {
         valid = true;
     }
-}
+} 
+
 console.log(valid);
 ///////////////////////////////////////////////
 
 // En utilisant indexOf() :
 ///////////////////////////////////////////////
-const email2 = "dorothy@mail.com";
-let valid2 = false
+// const email2 = "dorothy@mail.com";
+// let valid2 = false
 
-if (email2.indexOf("@") !== -1) {
-    valid2 = true 
-}
-console.log(valid2);
+// if (email2.indexOf("@") !== -1) {
+//     valid2 = true 
+// }
+// console.log(valid2);
 ///////////////////////////////////////////////

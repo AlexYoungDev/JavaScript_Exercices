@@ -45,4 +45,6 @@ for (let i = 0; i < str.length; i++) {
         counter++;
     }
 }
+
+console.log(counter);
 ///////////////////////////////////////////////
