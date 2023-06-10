@@ -29,7 +29,7 @@ const simpleAdding = (num) => {
         total = total + i;
     }
     return total;
-};
+}
 console.log(simpleAdding(4));
 ///////////////////////////////////////////////
 
