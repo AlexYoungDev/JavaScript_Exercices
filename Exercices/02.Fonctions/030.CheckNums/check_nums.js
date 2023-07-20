@@ -29,9 +29,8 @@ const checkNums = (num3, num4) => {
 
 const firstParam = 100;
 const secondParam = 100;
-const result = checkNums (firstParam, secondParam);
-console.log(result);
-
+const result = checkNums(firstParam, secondParam);
+console.log(result); 
 ///////////////////////////////////////////////
 
 
