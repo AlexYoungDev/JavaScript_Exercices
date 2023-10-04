@@ -22,7 +22,7 @@ for (let i = 0; i < email.length; i++) {
     if (email[i] === "@") {
         valid = true;
     }
-} 
+}
 
 console.log(valid);
 ///////////////////////////////////////////////
