@@ -42,6 +42,8 @@ console.log(reserveString2("I Love Code"));
 // (déterminé par l'indice i) est ajouté à la fin de la 
 // variable result.
 
+// La méthode charAt() est une méthode JavaScript qui est utilisée pour extraire un caractère spécifique à partir d'une chaîne de caractères (string). Elle prend en argument l'index du caractère que vous souhaitez extraire et renvoie ce caractère en tant que nouvelle chaîne.
+
 // return result;: Une fois la boucle terminée, la fonction 
 // renvoie la chaîne de caractères inversée qui a été stockée 
 // dans la variable result.

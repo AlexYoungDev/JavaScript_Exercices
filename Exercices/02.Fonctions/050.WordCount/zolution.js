@@ -26,7 +26,7 @@ function wordCount2 (str) {
             count2 = count2 + 1;
         }
     }
-    if ((count2 === 0 && str.count > 0) || count2 > 0) {
+    if ((count2 === 0 && str.length > 0) || count2 > 0) {
         return count2 +1;
     } else {
         return 0;

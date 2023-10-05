@@ -51,7 +51,3 @@ const secondParam2 = 200;
 const result2 = checkNums (firstParam2, secondParam2);
 console.log(result2);
 ///////////////////////////////////////////////
-
-
-
-
